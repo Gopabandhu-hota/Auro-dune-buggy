@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rajkumar/auro_repo/BBB_ros/src/auro_roboteq_interface/include/auro_roboteq_interface/roboteq/ErrorCodes.h
+
+/home/rajkumar/auro_repo/BBB_ros/src/auro_roboteq_interface/include/auro_roboteq_interface/roboteq/RoboteqDevice.h
+
+/home/rajkumar/auro_repo/BBB_ros/src/auro_roboteq_interface/src/roboteq/RoboteqDevice.cpp
+iostream
+-
+stdio.h
+-
+string.h
+-
+fcntl.h
+-
+errno.h
+-
+termios.h
+-
+time.h
+-
+sstream
+-
+unistd.h
+-
+auro_roboteq_interface/roboteq/RoboteqDevice.h
+/home/rajkumar/auro_repo/BBB_ros/src/auro_roboteq_interface/src/roboteq/auro_roboteq_interface/roboteq/RoboteqDevice.h
+auro_roboteq_interface/roboteq/ErrorCodes.h
+/home/rajkumar/auro_repo/BBB_ros/src/auro_roboteq_interface/src/roboteq/auro_roboteq_interface/roboteq/ErrorCodes.h
+

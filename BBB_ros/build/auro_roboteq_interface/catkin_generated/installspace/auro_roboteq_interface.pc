@@ -1,0 +1,8 @@
+prefix=/home/rajkumar/auro_repo/BBB_ros/install
+
+Name: auro_roboteq_interface
+Description: Description of auro_roboteq_interface
+Version: 0.0.0
+Cflags: -I/home/rajkumar/auro_repo/BBB_ros/install/include
+Libs: -L/home/rajkumar/auro_repo/BBB_ros/install/lib -lauro_roboteq -lauro_steer_brake_controller
+Requires: 

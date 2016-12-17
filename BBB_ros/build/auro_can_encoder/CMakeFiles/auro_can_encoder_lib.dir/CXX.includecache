@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rajkumar/auro_repo/BBB_ros/src/auro_can_encoder/include/auro_can_encoder/auro_can_encoder.h
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+string.h
+-
+string
+-
+net/if.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+sys/ioctl.h
+-
+iostream
+-
+iomanip
+-
+linux/can.h
+-
+linux/can/raw.h
+-
+
+/home/rajkumar/auro_repo/BBB_ros/src/auro_can_encoder/src/lib/auro_can_encoder.cpp
+auro_can_encoder.h
+/home/rajkumar/auro_repo/BBB_ros/src/auro_can_encoder/src/lib/auro_can_encoder.h
+

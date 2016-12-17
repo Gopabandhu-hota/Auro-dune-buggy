@@ -1,0 +1,8 @@
+prefix=/home/rajkumar/auro_repo/BBB_ros/install
+
+Name: auro_can_encoder
+Description: Description of auro_can_encoder
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/rajkumar/auro_repo/BBB_ros/install/lib 
+Requires: roscpp roscpp

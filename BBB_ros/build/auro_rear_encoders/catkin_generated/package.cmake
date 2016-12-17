@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "auro_rear_encoders")
+set(auro_rear_encoders_MAINTAINER "srinivas <srinivas@todo.todo>")
+set(auro_rear_encoders_DEPRECATED "")
+set(auro_rear_encoders_VERSION "0.0.0")
+set(auro_rear_encoders_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(auro_rear_encoders_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
+set(auro_rear_encoders_BUILDTOOL_DEPENDS "catkin")

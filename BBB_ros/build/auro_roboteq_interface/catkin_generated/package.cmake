@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "auro_roboteq_interface")
+set(auro_roboteq_interface_MAINTAINER "srinivas <srinivas@todo.todo>")
+set(auro_roboteq_interface_DEPRECATED "")
+set(auro_roboteq_interface_VERSION "0.0.0")
+set(auro_roboteq_interface_BUILD_DEPENDS "roscpp" "rospy")
+set(auro_roboteq_interface_RUN_DEPENDS "roscpp" "rospy")
+set(auro_roboteq_interface_BUILDTOOL_DEPENDS "catkin")

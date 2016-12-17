@@ -1,0 +1,8 @@
+prefix=/home/rajkumar/auro_repo/BBB_ros/install
+
+Name: auro_rear_encoders
+Description: Description of auro_rear_encoders
+Version: 0.0.0
+Cflags: -I/home/rajkumar/auro_repo/BBB_ros/install/include
+Libs: -L/home/rajkumar/auro_repo/BBB_ros/install/lib -lrear_enc_serial -leqep
+Requires: roscpp rospy std_msgs roscpp

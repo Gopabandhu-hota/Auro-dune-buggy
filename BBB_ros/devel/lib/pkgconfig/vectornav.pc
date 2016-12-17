@@ -1,0 +1,8 @@
+prefix=/home/rajkumar/auro_repo/BBB_ros/devel
+
+Name: vectornav
+Description: Description of vectornav
+Version: 0.1.0
+Cflags: -I/home/rajkumar/auro_repo/BBB_ros/devel/include
+Libs: -L/home/rajkumar/auro_repo/BBB_ros/devel/lib 
+Requires: rosc roscpp sensor_msgs geometry_msgs tf

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rajkumar/auro_repo/BBB_ros/src/auro_roboteq_interface/include/auro_roboteq_interface/roboteq/Constants.h
+
+/home/rajkumar/auro_repo/BBB_ros/src/auro_roboteq_interface/include/auro_roboteq_interface/roboteq/ErrorCodes.h
+
+/home/rajkumar/auro_repo/BBB_ros/src/auro_roboteq_interface/include/auro_roboteq_interface/roboteq/RoboteqDevice.h
+
+/home/rajkumar/auro_repo/BBB_ros/src/auro_roboteq_interface/include/auro_roboteq_interface/steering_brake_controller.h
+iostream
+-
+stdio.h
+-
+string.h
+-
+unistd.h
+-
+auro_roboteq_interface/roboteq/Constants.h
+/home/rajkumar/auro_repo/BBB_ros/src/auro_roboteq_interface/include/auro_roboteq_interface/auro_roboteq_interface/roboteq/Constants.h
+auro_roboteq_interface/roboteq/ErrorCodes.h
+/home/rajkumar/auro_repo/BBB_ros/src/auro_roboteq_interface/include/auro_roboteq_interface/auro_roboteq_interface/roboteq/ErrorCodes.h
+auro_roboteq_interface/roboteq/RoboteqDevice.h
+/home/rajkumar/auro_repo/BBB_ros/src/auro_roboteq_interface/include/auro_roboteq_interface/auro_roboteq_interface/roboteq/RoboteqDevice.h
+
+/home/rajkumar/auro_repo/BBB_ros/src/auro_roboteq_interface/src/steering_brake_controller.cpp
+auro_roboteq_interface/steering_brake_controller.h
+/home/rajkumar/auro_repo/BBB_ros/src/auro_roboteq_interface/src/auro_roboteq_interface/steering_brake_controller.h
+

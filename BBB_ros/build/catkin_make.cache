@@ -1,0 +1,2 @@
+auro_can_encoder:auro_low_level_controller:auro_odometry:auro_rear_encoders:auro_roboteq_interface:vectornav
+-DCATKIN_DEVEL_PREFIX=/home/rajkumar/auro_repo/BBB_ros/devel -DCMAKE_INSTALL_PREFIX=/home/rajkumar/auro_repo/BBB_ros/install -G Unix Makefiles

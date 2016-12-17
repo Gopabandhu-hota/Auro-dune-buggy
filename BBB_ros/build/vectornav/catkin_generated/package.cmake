@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "vectornav")
+set(vectornav_MAINTAINER "Dereck Wonnacott <dereck@gmail.com>")
+set(vectornav_DEPRECATED "")
+set(vectornav_VERSION "0.1.0")
+set(vectornav_BUILD_DEPENDS "roscpp" "rosc" "geometry_msgs" "sensor_msgs" "tf")
+set(vectornav_RUN_DEPENDS "roscpp" "rosc" "sensor_msgs" "geometry_msgs" "tf")
+set(vectornav_BUILDTOOL_DEPENDS "catkin")

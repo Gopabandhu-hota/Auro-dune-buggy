@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rajkumar/auro_repo/BBB_ros/src/vectornav/vnccpplib/include/vn_errorCodes.h
+
+/home/rajkumar/auro_repo/BBB_ros/src/vectornav/vnccpplib/include/vncp_services.h
+Windows.h
+-
+pthread.h
+-
+vn_errorCodes.h
+/home/rajkumar/auro_repo/BBB_ros/src/vectornav/vnccpplib/include/vn_errorCodes.h
+
+/home/rajkumar/auro_repo/BBB_ros/src/vectornav/vnccpplib/src/arch/linux/vncp_services.c
+stdlib.h
+-
+unistd.h
+-
+fcntl.h
+-
+termios.h
+-
+errno.h
+-
+string.h
+-
+vncp_services.h
+/home/rajkumar/auro_repo/BBB_ros/src/vectornav/vnccpplib/src/arch/linux/vncp_services.h
+vn_errorCodes.h
+/home/rajkumar/auro_repo/BBB_ros/src/vectornav/vnccpplib/src/arch/linux/vn_errorCodes.h
+

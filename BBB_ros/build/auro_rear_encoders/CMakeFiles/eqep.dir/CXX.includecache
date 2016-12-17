@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rajkumar/auro_repo/BBB_ros/src/auro_rear_encoders/include/eqep.h
+iostream
+-
+cstdint
+-
+string
+-
+
+/home/rajkumar/auro_repo/BBB_ros/src/auro_rear_encoders/src/lib/eqep.cpp
+eqep.h
+/home/rajkumar/auro_repo/BBB_ros/src/auro_rear_encoders/src/lib/eqep.h
+cstdint
+-
+cstdlib
+-
+cstdio
+-
+unistd.h
+-
+fcntl.h
+-
+poll.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rajkumar/auro_repo/BBB_ros/src/auro_low_level_controller/include/auro_low_level_controller/PID/PID.h
+
+/home/rajkumar/auro_repo/BBB_ros/src/auro_low_level_controller/src/PID.cpp
+auro_low_level_controller/PID/PID.h
+/home/rajkumar/auro_repo/BBB_ros/src/auro_low_level_controller/src/auro_low_level_controller/PID/PID.h
+stdio.h
+-
+

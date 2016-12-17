@@ -1,0 +1,8 @@
+prefix=/home/rajkumar/auro_repo/BBB_ros/install
+
+Name: auro_odometry
+Description: Description of auro_odometry
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/rajkumar/auro_repo/BBB_ros/install/lib 
+Requires: roscpp rospy std_msgs

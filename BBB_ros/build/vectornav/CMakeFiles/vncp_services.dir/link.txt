@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC    -shared -Wl,-soname,libvncp_services.so -o /home/rajkumar/auro_repo/BBB_ros/devel/lib/libvncp_services.so CMakeFiles/vncp_services.dir/vnccpplib/src/arch/linux/vncp_services.c.o -lpthread 

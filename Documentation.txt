@@ -1,0 +1,62 @@
+1. Connect both the BeagleBone Black(BBB) in electronics setup-of-box through Ethernet cables to Dlink wifi router, and also connect your laptop to Dlink wifi router. 
+    
+    Setup bashrc in laptop, by including the following variables:
+
+    command: gedit ~/.bashrc
+    
+    alias ssh_bbb='ssh -X debian@192.168.0.101'
+    alias time_sync_bbb='ssh root@192.168.0.101 "date -us @`date -u +%s`"'
+
+    alias ssh_bbb2='ssh -X debian@192.168.0.103'
+    alias time_sync_bbb2='ssh root@192.168.0.103 "date -us @`date -u +%s`"'
+
+   source ~/bbb_ros_ip_setup.sh 
+
+   I have attached the file bbb_ros_ip_setup.sh along with the mail. 
+
+2. After you have connected Dlink router, try 
+     
+          1. time_sync_bbb, and
+          2. ssh_bbb
+     
+    both in single terminal window as in the order listed. You will be prompt to enter a password, password is bbb123
+    Do the same procedure again for bbb2 in another terminal window (such as time_sync_bbb2, ssh_bbb2)
+
+3. Run roscore on your laptop
+
+4. After completing 2'nd step you will see two terminal windows name beaglebone1 and beaglebone2. 
+
+This is the procedure to connect to beaglebone black's. 
+
+There is low-level control implementation in beaglebone1 such as steering control can be performed. 
+
+All the programs are available in beaglebone black.
+
+command: roslaunch auro_low_level_controller auro_low_level_controller.launch 
+
+Before you run low-level control you should setup up CAN module which connects to steering encoder
+     
+     command:
+ ip link set can0 up type can bitrate 250000
+candump can0 
+
+The candump can0 will show you the output of steering encoder. 
+
+The low-level control code isn't working which may require debugging. The logic of low-level control is the mapping between steering hand wheel and steering front two wheel mapping function. As seen in the document attached link The mapping values are performed long ago and may require re-calibration now.
+
+5. On beaglebone2 you can control throttle. As the throttle is connected to servo motor which can be controlled using PWM signals from BBB. Attached image beaglebone2_throttle_servo_control.png contains the detail procedure to control servo motor connected to throttle.
+
+In the commands given in the attached image:  the pwm_test_P8_13 is the BBB pwn hardware module and set run to 0 to disable output while you configure the PWM. And, I set the period to 20 ms and a starting duty of 1.2 ms, after enabling output again (run to 1) the servo will swing to left of its central position. 
+
+6. To get encoder output, Connect dune buggy vehicle, left wheel encoder wire to beaglebone balck vero board pin, which will be written as eqep1. 
+    After that, run command: roslaunch auro_odometry auro_odometry_bbb1.launch in beaglebone2 terminal
+    Codes are available in beaglebone black. 
+    This code will ouptut encoder counts of the real wheel encoder.
+
+7. In PC, the odometry is computed. I have attached BBB_ros package which contains odometry computation package. Compile and build the package. 
+
+   command: roslaunch auro_odometry auro_odometry_pc.launch 
+   
+   will output the odometry. 
+
+For more details of hardware i also attach my project report along with the mail. 
